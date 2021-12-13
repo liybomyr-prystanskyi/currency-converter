@@ -1,0 +1,43 @@
+body {
+    height: 100vh;  
+    background-color: #233D4D !important;
+}
+
+html {
+    background-color: #233D4D;
+}
+
+#root {
+    background-color: #233D4D;
+}
+
+.my_navbar {
+    background-color: #FE7F2D;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+.def_button {
+    background-color: #FE7F2D !important;
+    border: none !important;
+    border-radius: 7px !important;
+    padding: 10px 50px !important;
+    outline: none !important;
+}

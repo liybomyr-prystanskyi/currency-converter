@@ -1,0 +1,84 @@
+.currency_history {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+    border-top: 1px solid #c1c1c1;
+}
+
+.currency_history:last-of-type {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.currency_history p {
+    margin: 0 40px 0 0;
+}
+
+.pt5 {
+    padding-top: 50px;
+}
+
+.mt5 {
+    margin-top: 50px;
+}
+
+.mb2 {
+    margin-bottom: 20px;
+}
+
+.mt2 {
+    margin-top: 20px;
+}
+
+.pb5 {
+    padding-bottom: 50px;
+}
+
+.history_result {
+    margin: 40px 0 0 0;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 15px 0;
+    border-radius: 7px;
+}
+
+.history_result p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.graph {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    background-color: #fff;
+    margin: 50px auto 0;
+}
+
+.comparison_result {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    margin: 5px 0;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 7px;
+}
+
+.comparison_result p {
+    margin: 0 10px 0 0;
+    font-size: 16px;
+}
+
+.comparison_wrapper {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:992px) {
+    body {
+        height: 100%;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+}
